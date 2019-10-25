@@ -7,3 +7,8 @@ Création d'un jeu avec Processing dans le cadre du cours *Programmation en anim
 <br>
 
 <img width="700px" alt="3 écrans du jeu" src="https://github.com/raphpare/CutieBreach/blob/master/images/ecrans.png?raw=true">
+
+## Structure
+**CutieBreach** | Code source du jeu
+**CutieBreach/data** | Tous les ressources du jeu (fonts, images, vidéos et sons)
+**applications** | Compliation du jeu pour tous les systèmes d'exploitation
