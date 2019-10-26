@@ -6,7 +6,8 @@ Création d'un jeu avec Processing dans le cadre du cours *Programmation en anim
 
 <br>
 
-<img width="700px" alt="3 écrans du jeu" src="https://github.com/raphpare/CutieBreach/blob/master/images/ecrans.png?raw=true">
+[![Regarder la vidéo](https://github.com/raphpare/CutieBreach/blob/master/images/ecrans.png?raw=true)](https://www.youtube.com/watch?v=PZlnefUOGr8)
+<!-- <img width="700px" alt="3 écrans du jeu" src="https://github.com/raphpare/CutieBreach/blob/master/images/ecrans.png?raw=true"> -->
 
 [Regarder la vidéo](https://www.youtube.com/watch?v=PZlnefUOGr8)
 
