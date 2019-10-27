@@ -15,4 +15,4 @@ Création d'un jeu avec Processing dans le cadre du cours *Programmation en anim
 |:---|:---|
 | **CutieBreach** | Code source du jeu |
 | **CutieBreach/data** | Tous les ressources du jeu (fonts, images, vidéos et sons) |
-| **applications** | Compliation du jeu pour tous les systèmes d'exploitation |
+| **applications** | Compilation du jeu pour tous les systèmes d'exploitation |
