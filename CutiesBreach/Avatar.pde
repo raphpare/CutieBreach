@@ -28,7 +28,7 @@ class Avatar {
   private PVector positionInitiale;
   private float delaiAvantDessinerEtatActif;
   private float delaiAvantDessinerEtatMort;
-  private int conteurImageExplosion = 0;
+  private int compteurImageExplosion = 0;
   private PImage image;
   
   // Projectiles
@@ -49,7 +49,7 @@ class Avatar {
     this.positionInitiale = new PVector(width / 2.0f, height - (height / 5.0f));
     this.position = new PVector(this.positionInitiale.x, height + HAUTEUR);
     this.initialiserProjectiles();
-    this.conteurImageExplosion = 0;
+    this.compteurImageExplosion = 0;
     this.setImage();
   };
   
@@ -299,9 +299,9 @@ class Avatar {
     
     filter(POSTERIZE, 12);
     
-    if (this.conteurImageExplosion < imagesExplosion.length) {
-      image(imagesExplosion[this.conteurImageExplosion], position.x - LARGEUR/2, position.y - HAUTEUR/2, LARGEUR, HAUTEUR);
-      this.conteurImageExplosion ++;
+    if (this.compteurImageExplosion < imagesExplosion.length) {
+      image(imagesExplosion[this.compteurImageExplosion], position.x - LARGEUR/2, position.y - HAUTEUR/2, LARGEUR, HAUTEUR);
+      this.compteurImageExplosion ++;
     }
   }
 }
