@@ -31,7 +31,7 @@ class Jeu {
   private float opaciteLogo = 0;
   private float opaciteEtoiles = 0;
   private float opaciteBoutonJouer = 0;
-  private float textSizeBoutonJouer = 20;
+  private float textSizeBoutonJouer = 12;
   private boolean animationInstructionActif = true;
   private int nbEtoiles = 0;
   private float[] largeurEtoile;
