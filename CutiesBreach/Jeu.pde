@@ -47,11 +47,11 @@ class Jeu {
   public void initialiser() {
     if (this.nbEtoiles == 0) {
       this.nbEtoiles = 200;
-      largeurEtoile = new float[this.nbEtoiles];
-      positionEtoile = new PVector[this.nbEtoiles];
+      this.largeurEtoile = new float[this.nbEtoiles];
+      this.positionEtoile = new PVector[this.nbEtoiles];
       for (int index = 0; index < this.nbEtoiles; index++) {
-        largeurEtoile[index] = random(0.1, 3);
-        positionEtoile[index] = new PVector(genererNombreAleatoireMinMax(0, width), genererNombreAleatoireMinMax(0, height));
+        this.largeurEtoile[index] = random(0.1, 3);
+        this.positionEtoile[index] = new PVector(genererNombreAleatoireMinMax(0, width), genererNombreAleatoireMinMax(0, height));
       }
     }
     
