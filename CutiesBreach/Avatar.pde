@@ -7,6 +7,9 @@ interface AvatarEtat {
   MORT = "mort";
 }
 
+
+
+
 interface AvatarDirection {
   String
   HAUT = "haut",
